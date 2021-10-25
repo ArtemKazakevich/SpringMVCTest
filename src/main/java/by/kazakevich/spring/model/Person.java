@@ -1,4 +1,4 @@
-package by.kazakevich.spring.models;
+package by.kazakevich.spring.model;
 
 import javax.validation.constraints.Email;
 import javax.validation.constraints.Min;

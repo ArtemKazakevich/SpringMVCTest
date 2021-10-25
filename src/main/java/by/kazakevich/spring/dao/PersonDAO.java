@@ -1,13 +1,11 @@
 package by.kazakevich.spring.dao;
 
-import by.kazakevich.spring.models.Person;
+import by.kazakevich.spring.model.Person;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
 
-import java.sql.*;
-import java.util.ArrayList;
 import java.util.List;
 
 @Component
